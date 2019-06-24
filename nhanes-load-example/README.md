@@ -1,7 +1,7 @@
 PIC-SURE HPDS Phenotype Load 
 ----------------------------
 
-#Preparing your input files
+# Preparing your input files
 
 HPDS requires a GPG public key to encrypte the symmetric key used to secure
 the data you load. The intention is that you will email that encrypted key
@@ -39,6 +39,8 @@ data in most HPDS environments to-date.
 For the example we are providing an allConcepts.csv file that is compressed
 for compatibility with GitHub. The docker-compose service uncompresses the
 file for you.
+
+# Loading your data
 
 To execute the loader just run the docker-compose file in this folder after 
 updating the GPG_USER environment variable in the docker-compose file to match 
