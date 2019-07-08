@@ -12,8 +12,8 @@ a GPG public key in this file:
 
 hpds/gpg_pub_key.asc
 
-HPDS expects a single CSV file with all of your data. That CSV file should
-have 4 columns:
+HPDS expects a single CSV file with all of your data. The CSV file must be 
+sorted by CONCEPT_PATH, then by PATIENT_NUM. That CSV file should have 4 columns:
 
 *PATIENT_NUM* - An integer identifying the subject.
 
