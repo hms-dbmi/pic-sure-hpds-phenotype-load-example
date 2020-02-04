@@ -15,7 +15,7 @@ services:
       - ./nhanes-load-example/hpds/allConcepts.csv:/home/jovyan/work/allConcepts.csv
 
   pic-sure-hpds-nhanes:
-    image: dbmi/pic-sure-hpds:master_700b2a1
+    image: dbmi/pic-sure-hpds:master_d1da0b6
     restart: always
     networks:
       - public
