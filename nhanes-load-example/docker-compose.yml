@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   csv-loader:
-    image: dbmi/pic-sure-hpds-etl:master_d1da0b6
+    image: dbmi/pic-sure-hpds-etl:master_80b2833
     environment:
       - HEAPSIZE=4096
       - GPG_USER=jason_stedman@hms.harvard.edu
