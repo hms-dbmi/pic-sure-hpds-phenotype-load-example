@@ -26,11 +26,11 @@ configured. We assume you are on a Linux based environment. We strongly
 recommend that you use docker-machine if you are in a non-linux
 environment such as Windows or Mac. 
 
-Start by following the instructions in nhanes-load-example/README.md
+Start by following the instructions in `nhanes-load-example/README.md`
 
 Once that completes successfully, start the stack from this folder:
-
+```
 docker-compose up -d
-
+```
 Then open your web browser while pointing at your docker-machine,
 docker engine host, or localhost if you are just running it locally.
