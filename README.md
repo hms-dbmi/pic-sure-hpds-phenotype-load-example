@@ -15,10 +15,10 @@ properly configured PIC-SURE API v2 instance.
 
 The repository has 2 folders in it:
 
-nhanes-load-example : This is an example load process for PIC-SURE-HPDS
+[nhanes-load-example](https://github.com/hms-dbmi/pic-sure-hpds-phenotype-load-example/tree/master/nhanes-load-example): This is an example load process for PIC-SURE-HPDS
 from a gzipped CSV file which is a subset of the NHANES database. 
 
-jupyter-notebooks : Some Jupyter Notebook examples that show statistics
+[jupyter-notebooks](https://github.com/hms-dbmi/pic-sure-hpds-phenotype-load-example/tree/master/jupyter-notebooks): Some Jupyter Notebook examples that show statistics
 for each of the concepts in the dataset.
 
 To run the example you need a docker environment with docker-compose
