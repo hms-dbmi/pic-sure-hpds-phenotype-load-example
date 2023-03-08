@@ -13,10 +13,12 @@ a GPG public key in this file:
 hpds/gpg_pub_key.asc
 
 HPDS expects a single CSV file with all of your data. 
-
 The CSV file must be sorted by CONCEPT_PATH, then by PATIENT_NUM. That CSV file should have 4 columns with the header: "PATIENT_NUM","CONCEPT_PATH","NVAL_NUM","TVAL_CHAR". 
 
-If you include a timestamp, then the csv file must be sorted by concept_path, patient_num, TIMESTAMP. That CSV file should have 5 columns with the header: "PATIENT_NUM","CONCEPT_PATH","NVAL_NUM","TVAL_CHAR","TIMESTAMP"
+* CSV: If you include a timestamp, then the csv file must be sorted by concept_path, patient_num, TIMESTAMP. That CSV file should have 5 columns with the header: "PATIENT_NUM","CONCEPT_PATH","NVAL_NUM","TVAL_CHAR","TIMESTAMP"
+
+* RDBMS: If you include a timestamp, then the table must be sorted by concept_path, patient_num, fact_data START_DATE. That table should have 5 columns with the header: "PATIENT_NUM","CONCEPT_PATH","NVAL_NUM","TVAL_CHAR","TIMESTAMP"
+
 
 
 
@@ -41,7 +43,10 @@ This behavior is expected to be removed in a future release, it is there to
 account for abuses of the i2b2 data model which is the primary source of
 data in most HPDS environments to-date.
 
-*TIMESTAMP*	- A timestamp for the observation fact record should be expressed as the number of milliseconds since January 1, 1970 GMT. This is equivalent to the Unix Epoch time value for the time of the observation multiplied by 1000.
+*TIMESTAMP*	
+* CSV: A timestamp for the observation fact record should be expressed as the number of milliseconds since January 1, 1970 GMT. This is equivalent to the Unix Epoch time value for the time of the observation multiplied by 1000.
+
+* RDBMS: Datetime for the fact data (start_date)
 
 For the example we are providing an allConcepts.csv file that is compressed
 for compatibility with GitHub. The docker-compose service uncompresses the
