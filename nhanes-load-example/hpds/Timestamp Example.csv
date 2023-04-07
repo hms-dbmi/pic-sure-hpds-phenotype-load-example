@@ -1,0 +1,55 @@
+PATIENT_NUM,CONCEPT_PATH,NVAL_NUM,TVAL_CHAR,TIMESTAMP
+1,SUBJECT_ID,8563,E,
+1,\demographics\AGE\,45,E,1.67257E+12
+1,\demographics\RACE\black\,,black,
+1,\demographics\SEX\male\,,male,1.67257E+12
+1,\examination\body measures\Body Mass Index (kg per m**2)\,30.19,E,1.67257E+12
+1,"\laboratory\biochemistry\Glucose, plasma (mg per dL)\",82.1,E,1.67257E+12
+2,SUBJECT_ID,28336,E,
+2,\demographics\AGE\,85,E,1.67378E+12
+2,\demographics\RACE\black\,,black,
+2,\demographics\SEX\male\,,male,1.67378E+12
+2,\examination\body measures\Body Mass Index (kg per m**2)\,26.32,E,1.67378E+12
+2,"\laboratory\biochemistry\Glucose, plasma (mg per dL)\",100.7,E,1.67378E+12
+3,SUBJECT_ID,28801,E,
+3,\demographics\AGE\,0,E,1.67275E+12
+3,\demographics\RACE\mexican\,,mexican,
+3,\demographics\SEX\female\,,female,1.67275E+12
+3,\examination\body measures\Body Mass Index (kg per m**2)\,25.1,E,1.67275E+12
+3,"\laboratory\biochemistry\Glucose, plasma (mg per dL)\",90,E,1.67275E+12
+1,SUBJECT_ID,8563,E,
+1,\demographics\AGE\,45,E,1.67525E+12
+1,\demographics\RACE\black\,,black,
+1,\demographics\SEX\male\,,male,1.67525E+12
+1,\examination\body measures\Body Mass Index (kg per m**2)\,30.19,E,1.67525E+12
+1,"\laboratory\biochemistry\Glucose, plasma (mg per dL)\",82.1,E,1.67525E+12
+2,SUBJECT_ID,28336,E,
+2,\demographics\AGE\,85,E,1.67646E+12
+2,\demographics\RACE\black\,,black,
+2,\demographics\SEX\male\,,male,1.67646E+12
+2,\examination\body measures\Body Mass Index (kg per m**2)\,26.32,E,1.67646E+12
+2,"\laboratory\biochemistry\Glucose, plasma (mg per dL)\",100.7,E,1.67646E+12
+3,SUBJECT_ID,28801,E,
+3,\demographics\AGE\,0,E,1.67542E+12
+3,\demographics\RACE\mexican\,,mexican,
+3,\demographics\SEX\female\,,female,1.67542E+12
+3,\examination\body measures\Body Mass Index (kg per m**2)\,25.1,E,1.67542E+12
+3,"\laboratory\biochemistry\Glucose, plasma (mg per dL)\",90,E,1.67542E+12
+1,SUBJECT_ID,8563,E,
+1,\demographics\AGE\,45,E,1.67767E+12
+1,\demographics\RACE\black\,,black,
+1,\demographics\SEX\male\,,male,1.67767E+12
+1,\examination\body measures\Body Mass Index (kg per m**2)\,30.19,E,1.67767E+12
+1,"\laboratory\biochemistry\Glucose, plasma (mg per dL)\",82.1,E,1.67767E+12
+2,SUBJECT_ID,28336,E,
+2,\demographics\AGE\,85,E,1.67888E+12
+2,\demographics\RACE\black\,,black,
+2,\demographics\SEX\male\,,male,1.67888E+12
+2,\examination\body measures\Body Mass Index (kg per m**2)\,26.32,E,1.67888E+12
+2,"\laboratory\biochemistry\Glucose, plasma (mg per dL)\",100.7,E,1.67888E+12
+3,SUBJECT_ID,28801,E,
+3,\demographics\AGE\,0,E,1.67784E+12
+3,\demographics\RACE\mexican\,,mexican,
+3,\demographics\SEX\female\,,female,1.67784E+12
+3,\examination\body measures\Body Mass Index (kg per m**2)\,25.1,E,1.67784E+12
+3,"\laboratory\biochemistry\Glucose, plasma (mg per dL)\",90,E,1.67784E+12
