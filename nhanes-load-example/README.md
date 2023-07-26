@@ -32,7 +32,7 @@ define your ontology mappings in this CSV source column.
 
 *NVAL_NUM* - Any numeric value that fits in a Java Float variable.
 
-*TVAL_CHAR* - Any text value.
+*TVAL_CHAR* - Any text value. TVAL_CHAR is case-sensitive.
 
 Each line in the CSV should have either a NVAL_NUM value that is a number
 or a TVAL_CHAR value. If it has both, the NVAL_NUM will be loaded and the
@@ -42,6 +42,15 @@ a numeric concept and all non-parseable values for that concept will be ignored.
 This behavior is expected to be removed in a future release, it is there to
 account for abuses of the i2b2 data model which is the primary source of
 data in most HPDS environments to-date.
+
+If the concept path has the TVAL_CHAR in it, HPDS reads the concept path as including the TVAL_CHAR. Therefore, you have three options to loading the data, as shown below:
+Options | PATIENT_NUM | CONCEPT_PATH | NVAL_NUM | TVAL_CHAR | TIMESTAMP
+:--- | :--- | :--- | :--- | :--- | :--- 
+Option 1 | 1530172 | \Consent Type\Waiver of consent\ | NULL | Yes | 1.6149E+12
+Option 2 | 1530172 | \Consent Type\Waiver of consent\Yes | NULL | Yes | 1.6149E+12
+Option 3 | 1530172 | \Consent Type\Waiver of consent\Yes\ | NULL | Yes | 1.6149E+12
+
+
 
 *TIMESTAMP*	
 * CSV: A timestamp for the observation fact record should be expressed as the number of milliseconds since January 1, 1970 GMT. This is equivalent to the Unix Epoch time value for the time of the observation multiplied by 1000.
