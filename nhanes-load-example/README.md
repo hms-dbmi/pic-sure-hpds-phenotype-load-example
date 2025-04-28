@@ -48,7 +48,7 @@ data in most HPDS environments to-date.
 
 * RDBMS: Datetime for the fact data (start_date)
 
-* The timestamp data should be loaded in ISO format, an internationally recognized standard for representing dates and times in a format that is clear to both people and machines and neutralized time zones. If data is loaded into PIC-SURE from different zones, the timezone is represented as Coordinated Universal Time (UTC). For some programs, such as GIC, the date and time data can have varying degrees of precision and meaning and should not be treated as precise values, especially when comparing data from different sources. For example, sometimes values are missing time information or have incorrect time zones at the time of data ingestion, and for some, the timestamp represents when the data was received, not when the event occurred.
+* The timestamp data should be loaded in ISO 8601 format, an internationally recognized standard for representing dates and times in a format that is clear to both people and machines and neutralized time zones. If data is loaded into PIC-SURE from different zones, the timezone is represented as Coordinated Universal Time (UTC). For some programs, such as GIC, the date and time data can have varying degrees of precision and meaning and should not be treated as precise values, especially when comparing data from different sources. For example, sometimes values are missing time information or have incorrect time zones at the time of data ingestion, and for some, the timestamp represents when the data was received, not when the event occurred.
 
 For the example we are providing an allConcepts.csv file that is compressed
 for compatibility with GitHub. The docker-compose service uncompresses the
