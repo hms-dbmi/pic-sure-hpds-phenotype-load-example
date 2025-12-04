@@ -44,7 +44,7 @@ account for abuses of the i2b2 data model which is the primary source of
 data in most HPDS environments to-date.
 
 *TIMESTAMP*	
-* CSV: A timestamp for the observation fact record should be expressed as the number of milliseconds since January 1, 1970 GMT. This is equivalent to the Unix Epoch time value for the time of the observation multiplied by 1000.
+* CSV: A timestamp for the observation fact record should be expressed as the number of milliseconds since January 1, 1970 GMT. This is equivalent to the Unix Epoch time value for the time of the observation multiplied by 1000. This this can be empty or an integer value. 0 is considered January 1, 1970.
 
 * RDBMS: Datetime for the fact data (start_date)
 
