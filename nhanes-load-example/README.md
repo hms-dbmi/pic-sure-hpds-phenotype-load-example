@@ -32,7 +32,7 @@ define your ontology mappings in this CSV source column.
 
 *NVAL_NUM* - Any numeric value that fits in a Java Float variable.
 
-*TVAL_CHAR* - Any text value.
+*TVAL_CHAR* - Any text value. TVAL_CHAR is case-sensitive.
 
 Each line in the CSV should have either a NVAL_NUM value that is a number
 or a TVAL_CHAR value. If it has both, the NVAL_NUM will be loaded and the
